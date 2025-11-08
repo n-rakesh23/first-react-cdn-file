@@ -42,7 +42,7 @@ const parent= React.createElement("div",{id:"parent"},
             <h2>An h2 tag</h2>
         </div>
     </div>
-
+*/
 const parent =React.createElement("div",
     {id:"parent"},
     [React.createElement("div",
@@ -54,7 +54,7 @@ const parent =React.createElement("div",
             [React.createElement("h1",{},"an h1 tag"),React.createElement("h2",{},"an h2 tag")]
         ) 
     ]
-);*/
+);
 
 const root=ReactDOM.createRoot(document.getElementById("root"));
 //root.render(heading);
